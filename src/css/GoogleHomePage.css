@@ -1,0 +1,187 @@
+.GoogleHomePage {
+  max-height: 100vh;
+}
+
+.GoogleHomePage .Header ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  margin: 0px;
+  padding: 20px 10px;
+}
+
+.GoogleHomePage .Header ul li {
+  padding: 0px 8px;
+}
+
+.GoogleHomePage .Header ul li:last-child {
+  position: relative;
+  top: -4px;
+}
+
+.GoogleHomePage .Header ul li > a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+}
+
+.GoogleHomePage .Header ul li a:hover {
+  text-decoration: underline;
+  color: #999999;
+}
+
+.GoogleHomePage .Header ul li div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 21px;
+  cursor: pointer;
+}
+
+.GoogleHomePage .Header ul li div:hover span {
+  background-color: black;
+}
+
+.GoogleHomePage .Header ul li div span {
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: #737373;
+  margin: 1px;
+}
+
+.GoogleHomePage .Header ul li button {
+  border: none;
+  background-color: #4585f1;
+  color: #ffffff;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.GoogleHomePage .Body {
+  padding: 30px;
+}
+
+.GoogleHomePage .Body .Body-Wrapper {
+  width: 500px;
+  margin: auto;
+}
+
+.GoogleHomePage .Body .Body-Wrapper > img {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+.GoogleHomePage .Body .Body-Wrapper .Search-Area {
+  position: relative;
+  padding: 0px 0px;
+  margin-top: 26px;
+}
+
+.GoogleHomePage .Body .Body-Wrapper .Search-Area .Img {
+  position: absolute;
+  filter: invert(84%) sepia(0%) saturate(2296%) hue-rotate(245deg)
+    brightness(76%) contrast(93%);
+}
+
+.GoogleHomePage .Body .Body-Wrapper .Search-Area .Img.SearchImg {
+  top: 12px;
+  left: 12px;
+}
+
+.GoogleHomePage .Body .Body-Wrapper .Search-Area .Img.KeyBoardImg {
+  top: 12px;
+  right: 38px;
+}
+
+.GoogleHomePage .Body .Body-Wrapper .Search-Area .Img.MicroPhoneImg {
+  top: 12px;
+  right: 12px;
+}
+
+.GoogleHomePage .Body .Body-Wrapper input {
+  width: 100%;
+  border: 1px solid #dfe1e5;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px 36px;
+  font-size: 16px;
+}
+
+.GoogleHomePage .Body .Body-Wrapper input:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(153, 153, 153, 1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(153, 153, 153, 1);
+  box-shadow: 0px 0px 5px 0px rgba(153, 153, 153, 1);
+}
+
+.GoogleHomePage .Body .Body-Wrapper input:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(153, 153, 153, 1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(153, 153, 153, 1);
+  box-shadow: 0px 0px 5px 0px rgba(153, 153, 153, 1);
+}
+
+.GoogleHomePage .Body .Body-Wrapper .Button-Area {
+  margin: 24px 0px;
+  text-align: center;
+}
+
+.GoogleHomePage .Body .Body-Wrapper .Button-Area button {
+  border: none;
+  background-color: #f3f3f3;
+  padding: 10px 12px;
+  margin: 0px 4px;
+  font-size: 14px;
+  color: #999999;
+  border-radius: 4px;
+}
+
+.GoogleHomePage .Body .Body-Wrapper .Button-Area button:hover {
+  color: black;
+  outline: 1px solid #999999;
+}
+
+.GoogleHomePage .Body .Body-Wrapper .text p {
+  text-align: center;
+}
+
+.GoogleHomePage .Footer {
+  margin-top: 147px;
+}
+
+.GoogleHomePage .Footer div {
+  background-color: #f2f2f2;
+  color: #0000008a;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  outline: 1px solid #eeeeee;
+}
+
+.GoogleHomePage .Footer div p {
+  padding: 10px 10px;
+  margin: 0px;
+}
+
+.GoogleHomePage .Footer div ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.GoogleHomePage .Footer div ul li {
+  padding: 0px 10px;
+}
+
+.GoogleHomePage .Footer div ul li a {
+  text-decoration: none;
+  color: #0000008a;
+}
+
+.GoogleHomePage .Footer div ul li a:hover {
+  text-decoration: underline;
+  color: black;
+}
